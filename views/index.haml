@@ -1,0 +1,19 @@
+!!!
+%html
+  %head
+    %title testing sinatra
+    %link(rel="stylesheet" href="/css/style.css")
+
+  %body
+    #container
+      %dl
+        - @photos.each do |pic|
+          - photo_info = flickr.photos.getInfo(:photo_id => pic.id)
+          - photo_url = FlickRaw.url_m(photo_info)
+          %dt
+            = photo_info.title
+          %dd{:class => "img"}
+            %img{ :src => photo_url } 
+          %dd
+            = photo_info.description.gsub("\n", '<br />')
+

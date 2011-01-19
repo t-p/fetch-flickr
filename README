@@ -1,0 +1,7 @@
+===============================================
+Just a Sinatra app that fetches flickr phtotos.
+
+You have to get our own API Key
+
+For more information visit flickr's APP Garden.
+http://http://www.flickr.com/services/api/
