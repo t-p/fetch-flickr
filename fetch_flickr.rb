@@ -8,7 +8,7 @@ configure do
 end
 
 before do
-    FlickRaw.api_key="-- insert your own key here --"
+    FlickRaw.api_key="d21b651c55dd909a31aeb47f76cd478d"
     @photos = flickr.interestingness.getList( :per_page => 5 )
 end
 
