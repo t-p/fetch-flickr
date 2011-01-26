@@ -1,5 +1,6 @@
 ===============================================
 Just a Sinatra app that fetches flickr phtotos.
+I'm using haml for the view.
 
 You have to get our own API Key
 
