@@ -8,8 +8,9 @@ configure do
 end
 
 before do
-    FlickRaw.api_key=" --- your key --- "
-    @photos = flickr.interestingness.getList( :per_page => 5 )
+  # set your flickr key through heroku env or .bashrc for local development    
+  FlickRaw.api_key = ENV['FLICKR_KEY']
+  @photos = flickr.interestingness.getList( :per_page => 5 )
 end
 
 get '/' do
