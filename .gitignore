@@ -1,4 +1,5 @@
 .bundle
 .rvmc
+manifest.yml
 public/css/style.scss
 public/css/.sass-cache/
