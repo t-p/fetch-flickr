@@ -29,6 +29,9 @@ body {
   line-height: 1.5em;
   color: #666; }
 
+#content dd.img {
+  margin: 0 0 5px 0; }
+
 #content dd.img img {
   margin: 0 8px 0 0;
   padding: 4px;
@@ -37,13 +40,16 @@ body {
   border-right-color: #C8CDD2;
   background: #fff; }
 
+#content dd a {
+  font-size: 85%;
+  line-height: 1.5em;
+  color: #666; }
+
 #content th, td {
   border: none;
   overflow: hidden;
   min-width: 250px;
-  text-align: center;
-}
+  text-align: center; }
 
 #content th, td, img {
-  border: 1px solid #D9E0E6;
-}
+  border: 1px solid #D9E0E6; }

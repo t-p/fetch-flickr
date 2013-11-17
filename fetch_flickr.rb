@@ -13,7 +13,7 @@ class FetchFlickr < Sinatra::Base
     end
 
     def picture_count(owner)
-      flickr.people.getPhotosOf(:user_id => owner).count.to_s
+      flickr.people.getPhotosOf(:user_id => owner).count
     end
 
     def picture_info(id)

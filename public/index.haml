@@ -6,7 +6,8 @@
       %a{:rel => "flickr_pic", :href => get_medium_size_url(pic.id) }
         %img{ :src => get_small_size_url(pic.id) }
     %dd.link-to-more
-      %a{:href => "/#{pic['owner']}/pictures"}
-        = "more Pictures (" + picture_count(pic['owner']) + ")"
+      - unless picture_count(pic['owner']).zero?
+        %a{:href => "/#{pic['owner']}/pictures"}
+          = "more Pictures (" + picture_count(pic['owner']).to_s + ")"
     %dd
       = picture_info(pic.id).description.gsub("\n", '<br />')
