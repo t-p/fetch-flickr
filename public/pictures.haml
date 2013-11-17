@@ -1,0 +1,9 @@
+%table
+  - @sliced_owner_pics.each do |row|
+    %tr
+      - row.each do |pic|
+        %td
+          %img{ :src => get_small_size_url(pic.id) }
+.link-to-home
+  %a{:href => "/"}
+    home

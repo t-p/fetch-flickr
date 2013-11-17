@@ -1,5 +1,7 @@
 .bundle
 .rvmc
+.ruby-version
+.ruby-gemset
 manifest.yml
 public/css/style.scss
 public/css/.sass-cache/

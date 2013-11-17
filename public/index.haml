@@ -1,0 +1,12 @@
+%dl
+  - @discovered_pics.each do |pic|
+    %dt
+      = picture_info(pic.id).title
+    %dd{:class => "img"}
+      %a{:rel => "flickr_pic", :href => get_medium_size_url(pic.id) }
+        %img{ :src => get_small_size_url(pic.id) }
+    %dd.link-to-more
+      %a{:href => "/#{pic['owner']}/pictures"}
+        = "more Pictures (" + picture_count(pic['owner']) + ")"
+    %dd
+      = picture_info(pic.id).description.gsub("\n", '<br />')
