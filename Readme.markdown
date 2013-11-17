@@ -7,9 +7,9 @@ you will get a nice animation for changing size. For
 that I'm using the jQuery plugin fancybox.  
 
 Checkout the running application at heroku  
-[fierce-winter-655.heroku.com](http://fierce-winter-655.heroku.com/)  
+[fetch-flickr.heroku.com](https://fetch-flickr.heroku.com/)  
 
-or at anynines.com
+or at anynines.com  
 [fetch-flickr.de.a9sapp.eu](http://fetch-flickr.de.a9sapp.eu)  
 * * *
 If you want to install the app by yourself you have  
