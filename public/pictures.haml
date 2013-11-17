@@ -1,9 +1,19 @@
+.link-to-home
+  %a{:href => "/"}
+    home
 %table
-  - @sliced_owner_pics.each do |row|
-    %tr
-      - row.each do |pic|
-        %td
-          %img{ :src => get_small_size_url(pic.id) }
+  - @all_owner_pics.each do |pic|
+    %dt
+      = picture_info(pic.id).title
+    %dd{:class => "img"}
+      %a{:rel => "flickr_pic", :href => get_medium_size_url(pic.id) }
+        %img{ :src => get_small_size_url(pic.id) }
+    %dd.link-to-more
+      - unless picture_count(pic['owner']).zero?
+        %a{:href => "/#{pic['owner']}/pictures"}
+          = "more Pictures (" + picture_count(pic['owner']).to_s + ")"
+    %dd
+      = picture_info(pic.id).description.gsub("\n", '<br />')
 .link-to-home
   %a{:href => "/"}
     home

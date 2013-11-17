@@ -48,8 +48,7 @@ class FetchFlickr < Sinatra::Base
 
   get '*/pictures' do
     owner_id = params[:splat].first[1..-1]
-    all_owner_pics = flickr.people.getPhotosOf(:user_id => owner_id)
-    @sliced_owner_pics = all_owner_pics.each_slice(3).to_a
+    @all_owner_pics = flickr.people.getPhotosOf(:user_id => owner_id)
 
     haml :pictures
   end

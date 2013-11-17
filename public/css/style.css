@@ -53,3 +53,12 @@ body {
 
 #content th, td, img {
   border: 1px solid #D9E0E6; }
+
+.link-to-home {
+  padding: 0 0 8px 0; }
+
+.link-to-home a {
+  font-size: 85%;
+  line-height: 1.5em;
+  color: #666; }
+
