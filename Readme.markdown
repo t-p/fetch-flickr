@@ -2,9 +2,7 @@
 * * *
 This is a Sinatra app that fetches flickr photos.  
 My goal was to get familiar with the flickr api.  
-For the view I'm using haml. By clicking on the pictures  
-you will get a nice animation for changing size. For  
-that I'm using the jQuery plugin fancybox.  
+
 
 Checkout the running application at heroku  
 [fetch-flickr.heroku.com](https://fetch-flickr.heroku.com/)  
