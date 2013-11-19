@@ -1,7 +1,6 @@
 ## fetch flickr
 * * *
 This is a Sinatra app that fetches flickr photos.  
-My goal was to get familiar with the flickr api.  
 
 
 Checkout the running application at heroku  
