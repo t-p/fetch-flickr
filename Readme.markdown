@@ -9,7 +9,6 @@ Checkout the running application at heroku
 or at anynines.com  
 [fetch-flickr.de.a9sapp.eu](http://fetch-flickr.de.a9sapp.eu)  
 * * *
-If you want to install the app by yourself you have  
-to get our own API key  
+If you want to install the app by yourself you have to get our own API key  
 
 For more information visit flickr's [APP Garden](http://www.flickr.com/services/api/).
