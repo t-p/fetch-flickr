@@ -5,9 +5,6 @@ This is a Sinatra app that fetches flickr photos.
 
 Checkout the running application at heroku  
 [fetch-flickr.heroku.com](https://fetch-flickr.heroku.com/)  
-
-or at anynines.com  
-[fetch-flickr.de.a9sapp.eu](http://fetch-flickr.de.a9sapp.eu)  
 * * *
 If you want to install the app by yourself you have to get our own API key  
 
