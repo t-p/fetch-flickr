@@ -2,9 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.1.0)
-    daemons (1.1.9)
-    eventmachine (1.0.3)
-    flickraw (0.9.6)
+    flickraw (0.9.8)
     haml (4.0.4)
       tilt
     kgio (2.8.1)
@@ -22,10 +20,6 @@ GEM
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
     slop (3.4.7)
-    thin (1.6.1)
-      daemons (>= 1.0.9)
-      eventmachine (>= 1.0.0)
-      rack (>= 1.0.0)
     tilt (1.4.1)
     unicorn (4.7.0)
       kgio (~> 2.6)
@@ -36,7 +30,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  flickraw
+  flickraw (~> 0.9.8)
   haml
   pry
   sinatra
